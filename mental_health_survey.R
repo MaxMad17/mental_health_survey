@@ -227,3 +227,5 @@ str(top_10_keywords)
 barplot(top_10_keywords$freq,names.arg = top_10_keywords$Key_word,
         col = "skyblue", main = "Bar Chart", xlab = "Labels",ylab = "Frequencies")
 
+#3.  Save data frame to CSV file
+write.csv(df, file = "mental_health_survey_cleaned.csv", row.names = TRUE)
