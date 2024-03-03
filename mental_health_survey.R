@@ -23,9 +23,9 @@ library(anomalize)
 library(lubridate)
 
 #Read data
-df_mh_01 <- readxl::read_excel("C:/Abhishek/McDaniel/C. ANA_515P/Data/mental_health_survey.xlsx", 
+df_mh_01 <- readxl::read_excel("mental_health_survey.xlsx", 
                                       sheet = "Sheet1", col_names = TRUE)
-df_mh_02 <- readxl::read_xlsx("C:/Abhishek/McDaniel/C. ANA_515P/Data/mental_health_survey.xlsx", 
+df_mh_02 <- readxl::read_xlsx("mental_health_survey.xlsx", 
                                          sheet = "Sheet 2", col_names = TRUE)
 
 #Have glimpes of 
