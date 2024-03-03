@@ -23,9 +23,9 @@ library(anomalize)
 library(lubridate)
 
 #Read data
-df_mh_01 <- readxl::read_excel("mental_health_survey.xlsx", 
+df_mh_01 <- readxl::read_csv("https://raw.githubusercontent.com/MaxMad17/mental_health_survey/main/mental_health_survey.csv", 
                                       sheet = "Sheet1", col_names = TRUE)
-df_mh_02 <- readxl::read_xlsx("mental_health_survey.xlsx", 
+df_mh_02 <- readxl::read_csv("https://raw.githubusercontent.com/MaxMad17/mental_health_survey/main/mental_health_survey.csv", 
                                          sheet = "Sheet 2", col_names = TRUE)
 
 #Have glimpes of 
